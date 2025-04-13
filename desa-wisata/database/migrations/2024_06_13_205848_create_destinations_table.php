@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('destinations', function (Blueprint $table) {
             $table->increments('id');
-            $table->unsignedInteger('owner_id')->nullable('false');
+            $table->unsignedInteger('owner_id')->nullable(false);
             $table->string('name', 100)->nullable(false);
             $table->text('description')->nullable(false);
             $table->string('location')->nullable(false);
@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('price_range', 100)->default('0')->nullable(false);
             $table->enum('status', ['active', 'inactive'])->default('active')->nullable(false);
             $table->string('slug', 150)->nullable(false);
+            $table->string('image_url')->nullable(); // Add this line
             $table->timestamps();
 
             $table->index('slug');

@@ -1,7 +1,7 @@
 <div class="card max-w-sm bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-all duration-300">
     <a href="{{ route('destinations.show', $destination->slug) }}" class="block relative overflow-hidden group">
         <img class="rounded-t-lg w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105" 
-            src="{{ Storage::url($destination->galleries[0]->image_url) }}" alt="{{ $destination->name }}" />
+            src="{{ Storage::url($destination->image_url) }}" alt="{{ $destination->name }}" />
     </a>
     <div class="p-5">
         <div class="flex justify-between items-start mb-2">

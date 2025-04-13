@@ -12,7 +12,7 @@
             </div>
             <h2 class="mt-6 text-center text-3xl font-bold leading-9 tracking-tight text-gray-900">Login</h2>
             <p class="mt-2 text-center text-sm text-gray-600">
-                Access your Sulawesi Tengah Tourism dashboard
+                Akses dashboard pariwisata anda
             </p>
         </div>
 

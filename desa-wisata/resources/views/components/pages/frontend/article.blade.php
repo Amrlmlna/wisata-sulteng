@@ -3,7 +3,7 @@
 
     <div class="pt-30 font-sans">
         <div class="text-4xl font-extrabold text-center mb-8">
-            <h1 class="font-sans">Travel Articles</h1>
+            <h1 class="font-sans">Artikel travel</h1>
         </div>
 
         <div class="">
@@ -32,7 +32,7 @@
                     <x-partials.frontend.card-article :article="$article" />
                 </div>
             @empty
-                <p class="text-xl font-semibold text-center text-gray-600 col-span-full">No articles available</p>
+                <p class="text-xl font-semibold text-center text-gray-600 col-span-full">Tidak Ada Artikel Ditemukan</p>
             @endforelse
         </div>
     </div>

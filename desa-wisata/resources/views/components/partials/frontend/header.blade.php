@@ -52,7 +52,7 @@
                 class="text-center font-sans max-w-2xl mb-4 text-4xl font-bold leading-none tracking-tight text-white md:text-5xl xl:text-5xl">
                 About Us</h1>
             <p class="text-center text-white/80 max-w-3xl mx-auto">
-                Learn more about Sukarame Tourism and our commitment to providing exceptional travel experiences
+           Pelajari lebih banyak tentang wisata Sulawesi Tengah dan komitmen kami untuk memberikan pelayanan travel terbaik anda
             </p>
         </div>
     </div>

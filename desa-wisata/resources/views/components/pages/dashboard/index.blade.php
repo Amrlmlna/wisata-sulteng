@@ -13,7 +13,7 @@
                         </svg>
                     </div>
                     <h1 class="text-4xl font-bold text-gray-800">{{ $totalDestination }}</h1>
-                    <p class="text-lg text-gray-600">Total Destinations</p>
+                    <p class="text-lg text-gray-600">Total Destinasi</p>
                 </div>
                 <div class="bg-white p-6 w-full max-w-[250px] space-y-2 text-center rounded-lg shadow-md border border-gray-100">
                     <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-2">
@@ -27,7 +27,7 @@
                         </svg>
                     </div>
                     <h1 class="text-4xl font-bold text-gray-800">{{ $totalUser }}</h1>
-                    <p class="text-lg text-gray-600">Total Users</p>
+                    <p class="text-lg text-gray-600">Total Pengguna</p>
                 </div>
                 <div class="bg-white p-6 w-full max-w-[250px] space-y-2 text-center rounded-lg shadow-md border border-gray-100">
                     <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-2">
@@ -41,7 +41,7 @@
                         </svg>
                     </div>
                     <h1 class="text-4xl font-bold text-gray-800">{{ $totalEvent }}</h1>
-                    <p class="text-lg text-gray-600">Total Events</p>
+                    <p class="text-lg text-gray-600">Total Acara</p>
                 </div>
 
                 <div class="bg-white p-6 w-full max-w-[250px] space-y-2 text-center rounded-lg shadow-md border border-gray-100">
@@ -54,7 +54,7 @@
                         </svg>
                     </div>
                     <h1 class="text-4xl font-bold text-gray-800">{{ $totalArticle }}</h1>
-                    <p class="text-lg text-gray-600">Total Articles</p>
+                    <p class="text-lg text-gray-600">Total Artikel</p>
                 </div>
             </div>
             <div class="mt-6 w-full">
@@ -74,7 +74,7 @@
                 </svg>
             </div>
             <h1 class="text-4xl font-bold text-gray-800">{{ $totalDestination }}</h1>
-            <p class="text-lg text-gray-600">Total Destinations</p>
+            <p class="text-lg text-gray-600">Total Destinasi</p>
         </div>
     @endif
     
@@ -89,7 +89,7 @@
                 </svg>
             </div>
             <h1 class="text-4xl font-bold text-gray-800">{{ $totalArticle }}</h1>
-            <p class="text-lg text-gray-600">Total Articles</p>
+            <p class="text-lg text-gray-600">Total Artikel</p>
         </div>
     @endif
 

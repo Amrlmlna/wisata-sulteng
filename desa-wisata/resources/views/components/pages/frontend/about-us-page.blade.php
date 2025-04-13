@@ -6,7 +6,7 @@
 
     <section class="mx-auto max-w-7xl py-16">
         <div class="px-6 md:px-8">
-            <h1 class="text-4xl font-bold text-center mb-10">About Sulawesi Tengah Tourism</h1>
+            <h1 class="text-4xl font-bold text-center mb-10">Tentang Wisata Sulawesi Tengah</h1>
             
             <div class="grid md:grid-cols-2 gap-10 items-center mb-16">
                 <div>
@@ -29,7 +29,7 @@
             </div>
             
             <div class="bg-secondary-50 rounded-xl p-8 mb-16">
-                <h2 class="text-2xl font-semibold mb-6 text-center">Why Choose Us</h2>
+                <h2 class="text-2xl font-semibold mb-6 text-center">Kenapa Memilih Kami</h2>
                 <div class="grid md:grid-cols-3 gap-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm">
                         <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mb-4">

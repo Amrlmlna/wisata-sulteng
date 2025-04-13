@@ -13,17 +13,17 @@
             <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                 <a href="{{ route('destinations') }}"
                     class="inline-flex justify-center font-sans px-6 py-3 text-base font-medium text-center text-primary-700 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-primary-300 transition-colors">
-                    Explore Destinations
+                    Jelajahi Destinasi
                 </a>
                 <a href="#"
                     class="inline-flex justify-center font-sans px-6 py-3 text-base font-medium text-center text-white bg-primary-700/80 rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 transition-colors">
-                    Book Now
+                    Booking Sekarang
                 </a>
             </div>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
             <div class="w-full h-full rounded-lg shadow-lg overflow-hidden">
-                <img src="/placeholder.svg?height=400&width=600" alt="Sulawesi Tengah Tourism" class="w-full h-full object-cover">
+                <img src="/assets/img/desa.png" alt="Sulawesi Tengah Tourism" class="w-full h-full object-cover">
             </div>
         </div>
     </div>

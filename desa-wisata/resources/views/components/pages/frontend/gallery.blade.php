@@ -20,7 +20,7 @@
                     </a>
                 </div>
             @empty
-                <p class="text-lg text-center text-gray-500 font-sans col-span-full">No gallery images available</p>
+                <p class="text-lg text-center text-gray-500 font-sans col-span-full">Belum ada Galeri gambar yang tersedia</p>
             @endforelse
         </div>
         @if ($galleries->lastPage() > 1)

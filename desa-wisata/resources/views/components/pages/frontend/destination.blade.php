@@ -3,7 +3,7 @@
 
     <section class="px-6 mx-auto py-30 max-w-7xl font-sans">
         <div class="text-4xl font-extrabold text-center mb-8">
-            <h1 class="font-sans">Tourist Attractions</h1>
+            <h1 class="font-sans">Artikel Wisata</h1>
         </div>
         <div class="">
             <form class="max-w-md mx-auto my-10" action="{{ route('destinations') }}" method="GET">
@@ -30,7 +30,7 @@
             @forelse ($destinations as $destination)
                 <x-partials.frontend.card-destination :$destination />
             @empty
-                <p class="font-semibold text-center text-gray-500 col-span-full">No tourist attractions available</p>
+                <p class="font-semibold text-center text-gray-500 col-span-full">Belum ada Daya Tarik WIsata yang Tersedia</p>
             @endforelse
         </div>
 

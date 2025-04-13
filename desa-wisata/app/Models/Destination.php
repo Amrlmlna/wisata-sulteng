@@ -17,6 +17,7 @@ class Destination extends Model
     protected $fillable = [
         'owner_id',
         'name',
+        'image_url',
         'description',
         'location',
         'gmaps_url',

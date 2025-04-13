@@ -5,7 +5,7 @@
         <section class="mb-6 bg-primary-600">
             <div class="grid py-20 mx-auto md:grid-cols-3 max-w-7xl">
                 <div class="pl-10 mb-8 space-y-10 text-white text-balance">
-                    <h1 class="text-4xl font-extrabold font-sans">Latest Events</h1>
+                    <h1 class="text-4xl font-extrabold font-sans">Acara Terbaru</h1>
                     <p class="w-3/4 font-sans">
                         Discover the latest and most comprehensive information about exciting events at Sukarame tourist 
                         attractions. Find various fun events that match your interests and get complete information about 
@@ -19,7 +19,7 @@
                             @forelse ($newEvents as $event)
                                 <x-partials.frontend.card-event :event="$event" />
                             @empty
-                                <p class="text-xl font-semibold text-center text-white">No events available</p>
+                                <p class="text-xl font-semibold text-center text-white">Belum ada Acara yang Tersedia</p>
                             @endforelse
                         </div>
                     </div>
@@ -30,7 +30,7 @@
         <div class="mx-auto max-w-7xl">
             <div class="px-10 mb-10">
                 <h1 class="text-3xl font-extrabold text-center font-sans">
-                    All Events
+                    Semua Acara
                 </h1>
             </div>
             <form class="max-w-md px-10 mx-auto my-10" action="{{ route('events') }}" method="GET">

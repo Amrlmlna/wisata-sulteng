@@ -187,7 +187,7 @@
             
             <div class="border-t border-secondary-800 pt-8">
                 <div class="text-center text-secondary-400">
-                    <p>&copy; {{ date('Y') }} Sulawesi Tengah Tourism. All rights reserved.</p>
+                    <p>&copy; {{ date('Y') }} Wisata Sulawesi Tengah. All rights reserved.</p>
                 </div>
             </div>
         </div>

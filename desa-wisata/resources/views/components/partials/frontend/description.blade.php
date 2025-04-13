@@ -57,7 +57,7 @@
     <div class="flex flex-col">
         <div class="m-5 text-lg font-semibold text-center lg:mb-5 lg:text-xl">
             <p class="text-center font-bold text-lg lg:mb-4 text-[22px] lg:text-[25px] font-sans">
-                About Sulawesi Tengah Tourism
+                Tentang Wisata Sulawesi Tengah
             </p>
         </div>
         <div class="flex p-3">

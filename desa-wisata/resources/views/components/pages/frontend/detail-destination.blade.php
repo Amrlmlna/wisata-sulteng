@@ -30,10 +30,10 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
                                 d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
                         </svg>
-                        {{ number_format($destination->views) }} views
+                        {{ number_format($destination->views) }} dilihat
                     </span>
                     <div>
-                        <label class="block text-sm font-medium text-secondary-700 mb-1">Location:</label>
+                        <label class="block text-sm font-medium text-secondary-700 mb-1">Lokasi:</label>
                         <div class="flex gap-2">
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -52,11 +52,11 @@
                     </div>
                 </div>
                 <div>
-                    <label class="block text-sm font-medium text-secondary-700 mb-1">Description:</label>
+                    <label class="block text-sm font-medium text-secondary-700 mb-1">Deskripsi:</label>
                     <p class="text-secondary-600 md:text-lg leading-relaxed">{{ $destination->description }}</p>
                 </div>
                 <div>
-                    <label class="block text-sm font-medium text-secondary-700 mb-1">Price Range:</label>
+                    <label class="block text-sm font-medium text-secondary-700 mb-1">Harga:</label>
                     <h1 class="pb-4 font-bold md:text-2xl text-primary-600">
                         {{ $destination->price_range == 0 ? 'Free Entry' : 'Starting from Rp. ' . number_format($destination->price_range) }}
                     </h1>
@@ -69,7 +69,7 @@
                         <li class="me-2" role="presentation">
                             <button class="inline-block p-4 border-b-2 rounded-t-lg" id="profile-tab"
                                 data-tabs-target="#profile" type="button" role="tab" aria-controls="profile"
-                                aria-selected="false">Operating Hours</button>
+                                aria-selected="false">Jam Operasional</button>
                         </li>
                         <li class="me-2" role="presentation">
                             <button
@@ -104,7 +104,7 @@
                             @forelse ($destination->facilities as $facility)
                                 <li>{{ $facility->name }}</li>
                             @empty
-                                <p>No facilities available yet</p>
+                                <p>Belum ada Fasilitas Yang Tersedia</p>
                             @endforelse
                         </ul>
                     </div>
@@ -114,7 +114,7 @@
                             @forelse ($destination->accommodations as $accommodation)
                                 <li>{{ $accommodation->name }}</li>
                             @empty
-                                <p>No accommodations available yet</p>
+                                <p>Belum ada Akomodasi yang Tersedia</p>
                             @endforelse
                         </ul>
                     </div>

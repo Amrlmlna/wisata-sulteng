@@ -6,7 +6,7 @@
 
     <section class="font-sans py-16">
         <div class="mb-8 text-4xl font-extrabold text-center">
-            <h1 class="font-sans">Sulawesi Tengah Attractions</h1>
+            <h1 class="font-sans">Daya Tarik Wisata Sulawesi Tengah</h1>
         </div>
         <div class="flex flex-wrap items-center justify-center gap-4 px-4 md:px-0">
             @forelse ($destinations as $destination)
@@ -14,7 +14,8 @@
                     <x-partials.frontend.card-destination :$destination />
                 </div>
             @empty
-                <p class="font-semibold text-center text-gray-500">No tourist attractions available yet</p>
+                <p class="font-semibold text-center text-gray-500">Belum ada Daya Tarik Wisata
+                </p>
             @endforelse
         </div>
         <div class="mt-10 text-center">
@@ -31,7 +32,7 @@
     <section class="bg-primary-600 py-16">
         <div class="grid py-20 mx-auto md:grid-cols-2 max-w-7xl">
             <div class="pl-10 mb-8 space-y-10 text-white text-balance">
-                <h1 class="text-4xl font-extrabold font-sans">Events Information</h1>
+                <h1 class="text-4xl font-extrabold font-sans">Informasi Acara</h1>
                 <p class="w-3/4 font-sans">
                     Discover the latest and most comprehensive information about exciting events at Sulawesi Tengah tourist 
                     attractions. Find various fun events that match your interests and get complete information about 
@@ -61,7 +62,7 @@
     
     <section class="relative px-3 md:px-0 mt-29 py-16">
         <div class="mb-8 text-4xl font-extrabold text-center">
-            <h1 class="font-sans">Travel Information & Tips</h1>
+            <h1 class="font-sans">Informasi Travel & Tips</h1>
         </div>
         <div class="flex flex-wrap items-center justify-center gap-4 py-4">
             @forelse ($articles as $article)
@@ -69,7 +70,7 @@
                     <x-partials.frontend.card-article :$article />
                 </div>
             @empty
-                <p class="text-xl font-semibold text-center text-gray-600">No articles available yet</p>
+                <p class="text-xl font-semibold text-center text-gray-600">Belum ada Artikel yang tersedia</p>
             @endforelse
         </div>
         <div class="mt-6 text-center">
